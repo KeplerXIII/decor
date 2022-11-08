@@ -36,7 +36,3 @@ def test_1():
     assert 'summator' in log_file_content, 'должно записаться имя функции'
     for item in (4.3, 2.2, 6.5):
         assert str(item) in log_file_content, f'{item} должен быть записан в файл'
-
-
-if __name__ == '__main__':
-    test_1()
